@@ -8,15 +8,41 @@
 
 ## 📋 目录
 
-- [前端开发](#前端开发)
-- [后端开发](#后端开发)
+- [AI Agent 工具](#ai-agent-工具)
 - [AI & 机器学习](#ai--机器学习)
 - [开发工具](#开发工具)
-- [设计 & 创意](#设计--创意)
 - [效率工具](#效率工具)
+- [前端开发](#前端开发)
+- [后端开发](#后端开发)
+- [设计 & 创意](#设计--创意)
 - [其他](#其他)
 
 ---
+
+## AI Agent 工具
+
+> 让 AI Agent 更强大、更高效的工具与框架。
+
+- **[Agent Reach](https://github.com/Panniantong/Agent-Reach)** — 统一 Agent 网络访问层。把网页、YouTube、RSS、GitHub、Twitter/X、B站、Reddit、小红书、LinkedIn、V2EX 等渠道整合为一套 Agent 可调用的工具，自动选择当前最稳的接入方式。一键安装，告别「我无法访问」。
+- **[Loop Engineering](https://github.com/cobusgreyling/loop-engineering)** — AI Agent 运行循环的系统化设计方法论与工具集。将零散的 prompt 工程升级为可复用的系统：automations 定时触发、worktrees 并行隔离、skills 存项目知识、plugins 接外部系统、sub-agents 做 checker 拆分、STATE 文件跨 session 记忆。含 7 个生产级 pattern + 3 个 CLI 工具（loop-audit / loop-init / loop-cost）。
+- **[Obsidian CC](https://github.com/looping-engineering/obsidian-cc)** — Loop Engineering 生态的 Obsidian 插件，将 Agent 运行循环的设计模式集成到笔记工作流中。
+
+## AI & 机器学习
+
+- **[Supervision](https://github.com/roboflow/supervision)** — 计算机视觉通用工具集。封装检测、追踪、标注、可视化等一整套 CV 常用功能，省去重复造轮子。做 CV 项目的基础设施级工具库。
+
+## 开发工具
+
+> 提升开发效率、改善代码质量的开源工具。
+
+- **[Codebase-Memory-MCP](https://github.com/DeusData/codebase-memory-mcp)** — 将整个代码库索引为持久化知识图谱的 MCP 工具。亚毫秒级查询，号称比传统方式省 99% token。多仓库切换时不再需要反复喂代码上下文，对做 RAG 和代码智能的工具开发者尤为值得关注。
+- **[lat.md](https://github.com/1st1/lat.md)** — 为代码库建立 Markdown 知识图谱。通过 `lat.md/` 文件夹存放架构、业务逻辑、测试规范等互链的 markdown 文件，配合 CLI（`init` / `check` / `locate` / `search`）让 Agent 用语义搜索替代无穷尽的 grep。项目大到 Agent 经常找不到关键约束时，最值得一试的方案。
+
+## 效率工具
+
+> 让日常工作更高效、更专注。
+
+- **[Meetily](https://github.com/Zackriya-Solutions/meetily)** — 隐私优先的本地会议助手，GitHub 12K+ Stars。录音、转写、总结全部跑在本地，不上传任何服务器。Whisper + NVIDIA Parakeet 实时转写，macOS / Windows / Linux 三端 GPU 加速，总结环节可接 Ollama 本地模型或 Claude、Groq 等云端 API。涉及客户、合同、薪资等敏感会议的首选。
 
 ## 前端开发
 
@@ -26,19 +52,7 @@
 
 *等待收录...*
 
-## AI & 机器学习
-
-*等待收录...*
-
-## 开发工具
-
-*等待收录...*
-
 ## 设计 & 创意
-
-*等待收录...*
-
-## 效率工具
 
 *等待收录...*
 
