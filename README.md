@@ -52,7 +52,9 @@
 
 ## 后端开发
 
-*等待收录...*
+> 后端框架、基础设施、中间件等。
+
+- **[SafeLine](https://github.com/chaitin/SafeLine)** — 长亭科技出品的自建 WAF（Web 应用防火墙），GitHub 15K+ Stars。基于语义分析引擎检测 SQL 注入、XSS、命令注入等攻击，社区版免费。反向代理部署，支持 Docker 一键安装，自带 Web 管理面板，实时攻击日志与告警。
 
 ## 设计 & 创意
 
