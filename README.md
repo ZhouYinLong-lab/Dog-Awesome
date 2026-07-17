@@ -68,6 +68,7 @@
 > 跨领域、跨品类的实用工具。
 
 - **[Spotube](https://github.com/KRTirtho/spotube)** — 开源跨平台音乐播放器，GitHub 46K+ Stars。基于 Flutter 构建，非 Electron 套壳，原生性能。使用 YouTube / Piped / Invidious 等公开音源，不依赖 Spotify API，无需账号即可免费串流。隐私优先（零遥测）、时间同步歌词、局域网远程控制、Discord Rich Presence、Last.fm / ListenBrainz 记录。macOS / Windows / Linux / Android / iOS 全平台可跑。
+- **[Streambert](https://github.com/truelockmc/streambert)** — Electron 跨平台影视流媒体桌面应用，口号「能看和下载全球几乎任何电影、剧集或番剧」。零广告、零追踪，从 VidSrc 拉取视频流，信息走 TMDB，动漫自动切 AniList + AllManga.to。支持边看边下（多线程下载，速度比浏览器快）、库管理、字幕下载、流行趋势推荐。首次启动需免费申请 TMDB API 读取令牌。
 
 ---
 
