@@ -39,6 +39,8 @@
 - **[Codebase-Memory-MCP](https://github.com/DeusData/codebase-memory-mcp)** — 将整个代码库索引为持久化知识图谱的 MCP 工具。亚毫秒级查询，号称比传统方式省 99% token。多仓库切换时不再需要反复喂代码上下文，对做 RAG 和代码智能的工具开发者尤为值得关注。
 - **[lat.md](https://github.com/1st1/lat.md)** — 为代码库建立 Markdown 知识图谱。通过 `lat.md/` 文件夹存放架构、业务逻辑、测试规范等互链的 markdown 文件，配合 CLI（`init` / `check` / `locate` / `search`）让 Agent 用语义搜索替代无穷尽的 grep。项目大到 Agent 经常找不到关键约束时，最值得一试的方案。
 - **[OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)** — AI 原生 Office 文档命令行工具，GitHub 8K+ Stars。零依赖单二进制文件，直接操作 Word/Excel/PPT，无需安装 Office 或 .NET 运行时。内置 MCP Server，一条命令 `officecli mcp claude` 即可注册到 Claude Code，让 AI Agent 直接创建、读取、修改 Office 文档。三层架构（JSON 读取 → DOM 路径寻址 → 原始 XML/XPath 回退），支持模板变量 `{{placeholder}}`、批量生成、实时预览（`officecli watch` 启动本地 Web 服务）。macOS / Windows / Linux 全平台可用。
+- **[Public APIs](https://github.com/public-apis/public-apis)** — GitHub 330K+ Stars，收录 1500+ 个免费公开 API 的集体索引清单，覆盖天气、金融、AI、游戏、健康、新闻、交通等 50+ 类别。每个 API 标注了认证方式（apiKey / OAuth / 无需认证）、CORS 支持、HTTPS 支持等关键信息。开发者做项目时为后端找数据源的首选参考，跟程序员接私活一起养活了一整个生态。
+- **[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** — GitHub 420K+ Stars，全球最大的开源编程学习社区。全免费、自定进度的交互式课程，含 2000+ 小时的项目驱动练习，覆盖 HTML/CSS/JavaScript/Python/数据科学/机器学习/关系型数据库等。社区论坛 + 技术文章 + YouTube 频道全生态覆盖，已帮助数万人从零成为专业开发者并找到第一份技术工作。真正的「免费」编程教育。
 
 ## 效率工具
 
