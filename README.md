@@ -27,11 +27,13 @@
 - **[Loop Engineering](https://github.com/cobusgreyling/loop-engineering)** — AI Agent 运行循环的系统化设计方法论与工具集。将零散的 prompt 工程升级为可复用的系统：automations 定时触发、worktrees 并行隔离、skills 存项目知识、plugins 接外部系统、sub-agents 做 checker 拆分、STATE 文件跨 session 记忆。含 7 个生产级 pattern + 3 个 CLI 工具（loop-audit / loop-init / loop-cost）。
 - **[Obsidian CC](https://github.com/looping-engineering/obsidian-cc)** — Loop Engineering 生态的 Obsidian 插件，将 Agent 运行循环的设计模式集成到笔记工作流中。
 - **[Agency Agents](https://github.com/msitarzewski/agency-agents)** — GitHub 116K+ Stars 的 AI 专家角色库。140+ 个结构化 Agent 角色（不仅是 prompt 模板，每个角色有独立人设、专业流程和可交付成果），覆盖工程、设计、产品、营销、销售、安全等 20 个部门。自带中国市场专家（小红书/抖音/微信/B站/飞书等）。一键安装到 Claude Code / Cursor / Copilot / Windsurf 等 18+ 工具，让 AI 编程助手变身为专业团队协作。
+- **[Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** — GitHub 124K+ Stars，精选 100+ 个可运行的 AI Agent / RAG / LLM 应用模板库。涵盖多智能体协作、语音 Agent、MCP 集成、生成式 UI、游戏 Agent 等场景，clone 即可运行。支持 OpenAI Agents SDK、Google ADK、CrewAI、LangGraph、Claude、Gemini 等主流框架，也提供 Agent Skills 一键安装到编码助手。从原型到可交付应用只需 30 秒，Apache-2.0 协议。
 
 ## AI & 机器学习
 
 - **[Supervision](https://github.com/roboflow/supervision)** — 计算机视觉通用工具集。封装检测、追踪、标注、可视化等一整套 CV 常用功能，省去重复造轮子。做 CV 项目的基础设施级工具库。
 - **[BiRefNet](https://github.com/ZhengPeng7/BiRefNet)** — 高精度图像抠图深度学习模型。双向参考机制同时利用高层语义和底层细节信息，发丝、半透明物体等复杂边缘处理自然。提供预训练模型和推理代码，支持在 COCO 等公开数据集上微调。适用场景：电商自动去背景、视频会议虚拟背景预处理、影视后期素材提取、证件照自动换底。
+- **[Bisheng](https://github.com/dataelement/bisheng)** — GitHub 11.5K+ Stars，企业级 LLM 应用 DevOps 平台，名出毕昇活字印刷。核心三件套：**Lingsight Agent**（AGL 框架将领域知识嵌入 Agent 决策链）、**Bisheng Workflow**（可视化编排，支持循环/并行/批处理/条件逻辑，执行中可人机干预）、**高精度文档解析**（印刷/手写 OCR、表格识别、版式分析、印章检测）。覆盖 RAG → Agent → SFT 全流程，内置 RBAC/SSO/LDAP 企业级管控。Docker 一键部署，已服务多家世界 500 强，Apache-2.0 协议。
 
 ## 开发工具
 
