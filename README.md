@@ -34,6 +34,7 @@
 - **[Supervision](https://github.com/roboflow/supervision)** — 计算机视觉通用工具集。封装检测、追踪、标注、可视化等一整套 CV 常用功能，省去重复造轮子。做 CV 项目的基础设施级工具库。
 - **[BiRefNet](https://github.com/ZhengPeng7/BiRefNet)** — 高精度图像抠图深度学习模型。双向参考机制同时利用高层语义和底层细节信息，发丝、半透明物体等复杂边缘处理自然。提供预训练模型和推理代码，支持在 COCO 等公开数据集上微调。适用场景：电商自动去背景、视频会议虚拟背景预处理、影视后期素材提取、证件照自动换底。
 - **[Bisheng](https://github.com/dataelement/bisheng)** — GitHub 11.5K+ Stars，企业级 LLM 应用 DevOps 平台，名出毕昇活字印刷。核心三件套：**Lingsight Agent**（AGL 框架将领域知识嵌入 Agent 决策链）、**Bisheng Workflow**（可视化编排，支持循环/并行/批处理/条件逻辑，执行中可人机干预）、**高精度文档解析**（印刷/手写 OCR、表格识别、版式分析、印章检测）。覆盖 RAG → Agent → SFT 全流程，内置 RBAC/SSO/LDAP 企业级管控。Docker 一键部署，已服务多家世界 500 强，Apache-2.0 协议。
+- **[Awesome LLM Resources](https://github.com/WangRongsheng/awesome-LLM-resources)** — 大语言模型资源全收录：论文、开源模型、训练框架、推理优化、评估基准、Prompt 工程、RAG、Agent、安全对齐等 20+ 子领域。含中文 LLM 专项（ChatGLM、Qwen、DeepSeek 等国产模型生态）和实践教程，适合 LLM 研究者与工程师的系统性学习地图。
 
 ## 开发工具
 
@@ -45,6 +46,7 @@
 - **[Public APIs](https://github.com/public-apis/public-apis)** — GitHub 330K+ Stars，收录 1500+ 个免费公开 API 的集体索引清单，覆盖天气、金融、AI、游戏、健康、新闻、交通等 50+ 类别。每个 API 标注了认证方式（apiKey / OAuth / 无需认证）、CORS 支持、HTTPS 支持等关键信息。开发者做项目时为后端找数据源的首选参考，跟程序员接私活一起养活了一整个生态。
 - **[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** — GitHub 420K+ Stars，全球最大的开源编程学习社区。全免费、自定进度的交互式课程，含 2000+ 小时的项目驱动练习，覆盖 HTML/CSS/JavaScript/Python/数据科学/机器学习/关系型数据库等。社区论坛 + 技术文章 + YouTube 频道全生态覆盖，已帮助数万人从零成为专业开发者并找到第一份技术工作。真正的「免费」编程教育。
 - **[SimUtil](https://github.com/dungngminh/simutil)** — 终端 TUI 移动端模拟器管理工具，Dart + Nocterm 构建。并列列出本机所有 iOS Simulators 和 Android AVD，回车一键启动（安卓支持冷启动、禁音频等参数），也可关闭设备、看 logcat。内置无线 ADB 连接、6 位码配对及二维码配对。macOS / Linux / Windows 全平台，Homebrew 和 PowerShell 一键安装。终端党无需再为开个模拟器而启动 Android Studio / Xcode。
+- **[Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)** — GitHub 340K+ Stars，手把手教你从零构建 Git、Docker、Redis、数据库、Shell 等经典技术的教程合集。涵盖 3D 渲染器、区块链、编程语言、游戏引擎、操作系统、神经网络等 30+ 领域，每个项目都有清晰的教程链接。最硬核的「造轮子」学习地图，适合想深入理解底层原理的开发者。
 
 ## 效率工具
 
@@ -63,6 +65,7 @@
 > 后端框架、基础设施、中间件等。
 
 - **[SafeLine](https://github.com/chaitin/SafeLine)** — 长亭科技出品的自建 WAF（Web 应用防火墙），GitHub 15K+ Stars。基于语义分析引擎检测 SQL 注入、XSS、命令注入等攻击，社区版免费。反向代理部署，支持 Docker 一键安装，自带 Web 管理面板，实时攻击日志与告警。
+- **[Fastify](https://github.com/fastify/fastify)** — Node.js 高性能 Web 框架，GitHub 33K+ Stars。插件式架构 + JSON Schema 序列化，请求吞吐量远超 Express。内置 Logger、输入校验、Hooks 生命周期，TypeScript 一等支持，生态丰富（官方插件覆盖 Cookie、CORS、JWT、Rate Limiting、WebSocket 等）。适合微服务、高并发 API 网关、实时数据管道等对性能有极致要求的后端场景。
 
 ## 设计 & 创意
 
