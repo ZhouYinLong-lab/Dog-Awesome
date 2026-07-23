@@ -47,6 +47,9 @@
 - **[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** — GitHub 420K+ Stars，全球最大的开源编程学习社区。全免费、自定进度的交互式课程，含 2000+ 小时的项目驱动练习，覆盖 HTML/CSS/JavaScript/Python/数据科学/机器学习/关系型数据库等。社区论坛 + 技术文章 + YouTube 频道全生态覆盖，已帮助数万人从零成为专业开发者并找到第一份技术工作。真正的「免费」编程教育。
 - **[SimUtil](https://github.com/dungngminh/simutil)** — 终端 TUI 移动端模拟器管理工具，Dart + Nocterm 构建。并列列出本机所有 iOS Simulators 和 Android AVD，回车一键启动（安卓支持冷启动、禁音频等参数），也可关闭设备、看 logcat。内置无线 ADB 连接、6 位码配对及二维码配对。macOS / Linux / Windows 全平台，Homebrew 和 PowerShell 一键安装。终端党无需再为开个模拟器而启动 Android Studio / Xcode。
 - **[Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)** — GitHub 340K+ Stars，手把手教你从零构建 Git、Docker、Redis、数据库、Shell 等经典技术的教程合集。涵盖 3D 渲染器、区块链、编程语言、游戏引擎、操作系统、神经网络等 30+ 领域，每个项目都有清晰的教程链接。最硬核的「造轮子」学习地图，适合想深入理解底层原理的开发者。
+- **[Project Based Learning](https://github.com/practical-tutorials/project-based-learning)** — GitHub 275K+ Stars，编程实战教程合集。按语言分类（C/C++/Python/Go/JavaScript/Rust 等），涵盖 Web 应用、游戏、编译器、操作系统、机器学习等领域的从零构建教程。每个教程都带你完整做出一个可运行的项目，与 Build Your Own X 互补：前者偏「造轮子理解原理」，这里偏「做项目积累经验」。
+- **[Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know)** — GitHub 100K+ Stars，每个软件开发者都该知道的技术知识图谱。涵盖算法、数据结构、安全、分布式系统、系统架构、职业建议、编码练习平台等主题，以书籍/文章/视频/交互工具的形式组织。高度观点化的精选列表，还包含平台工程和心理健康等新兴话题，适合用来检查自己的知识盲区。
+- **[Awesome Courses](https://github.com/prakhar1989/awesome-courses)** — GitHub 70K+ Stars，全球顶尖大学计算机科学课程清单。收录 MIT、Stanford、CMU、Berkeley 等名校的公开课程，涵盖算法、操作系统、数据库、网络、编译原理、机器学习、安全等 CS 核心领域。大部分课程有免费视频、讲义和编程作业，适合系统性补强计算机基础。
 
 ## 效率工具
 
@@ -70,6 +73,7 @@
 ## 设计 & 创意
 
 - **[Kami](https://github.com/tw93/Kami)** — 轻量约束语言 + 十套模板，让 AI 生成「拿得出手」的 PDF。暖色调羊皮纸底、墨水蓝单色强调、统一衬线排版，解决 AI 生成文档版式漂移、千篇一律灰扑扑的问题。含一页简报、长文、信件、简历、幻灯片、股权报告、变更日志、落地页等中英双语模板。支持品牌配置文件（`~/.config/kami/brand.md`）持久化名字、色调、语言偏好；Claude Code 插件市场直接装 Skill ZIP 即可让 Agent 自动触发。适合常让 AI 写研报、提案、技术分享并想要认真排版的人。
+- **[Awesome Web Design](https://github.com/nicolesaidy/awesome-web-design)** — 数字设计师资源大全。覆盖博客/资讯、灵感网站、配色工具、字体搭配、图标库、图片素材、设计规范、原型工具、教程书籍、生产力工具和 Slack 社区等分类。从 Sketch/Figma 到 Dribbble/Behance 再到 Google Fonts，设计师常用工具与服务一站导航。
 
 ## 其他
 
