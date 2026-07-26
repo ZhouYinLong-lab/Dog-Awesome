@@ -28,6 +28,7 @@
 - **[Obsidian CC](https://github.com/looping-engineering/obsidian-cc)** — Loop Engineering 生态的 Obsidian 插件，将 Agent 运行循环的设计模式集成到笔记工作流中。
 - **[Agency Agents](https://github.com/msitarzewski/agency-agents)** — GitHub 116K+ Stars 的 AI 专家角色库。140+ 个结构化 Agent 角色（不仅是 prompt 模板，每个角色有独立人设、专业流程和可交付成果），覆盖工程、设计、产品、营销、销售、安全等 20 个部门。自带中国市场专家（小红书/抖音/微信/B站/飞书等）。一键安装到 Claude Code / Cursor / Copilot / Windsurf 等 18+ 工具，让 AI 编程助手变身为专业团队协作。
 - **[Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** — GitHub 124K+ Stars，精选 100+ 个可运行的 AI Agent / RAG / LLM 应用模板库。涵盖多智能体协作、语音 Agent、MCP 集成、生成式 UI、游戏 Agent 等场景，clone 即可运行。支持 OpenAI Agents SDK、Google ADK、CrewAI、LangGraph、Claude、Gemini 等主流框架，也提供 Agent Skills 一键安装到编码助手。从原型到可交付应用只需 30 秒，Apache-2.0 协议。
+- **[AI Agent Book](https://github.com/bojieli/ai-agent-book)** — 李博杰著《深入理解 AI Agent：设计原理与工程实践》开源主仓库，GitHub 20K+ Stars。全书 10 章，核心公式「Agent = LLM + 上下文 + 工具」贯穿始终，从基础到生产级覆盖上下文工程、记忆/RAG、工具/MCP、编程 Agent、评估、后训练、多模态交互与多智能体协作。含 92 个配套项目（70+ 可独立运行），按章组织代码。提供 PDF/EPUB 离线版与可搜索在线版，中/英/繁/俄/泰/越/日 7 种语言翻译，Apache-2.0 协议。
 
 ## AI & 机器学习
 
@@ -35,6 +36,7 @@
 - **[BiRefNet](https://github.com/ZhengPeng7/BiRefNet)** — 高精度图像抠图深度学习模型。双向参考机制同时利用高层语义和底层细节信息，发丝、半透明物体等复杂边缘处理自然。提供预训练模型和推理代码，支持在 COCO 等公开数据集上微调。适用场景：电商自动去背景、视频会议虚拟背景预处理、影视后期素材提取、证件照自动换底。
 - **[Bisheng](https://github.com/dataelement/bisheng)** — GitHub 11.5K+ Stars，企业级 LLM 应用 DevOps 平台，名出毕昇活字印刷。核心三件套：**Lingsight Agent**（AGL 框架将领域知识嵌入 Agent 决策链）、**Bisheng Workflow**（可视化编排，支持循环/并行/批处理/条件逻辑，执行中可人机干预）、**高精度文档解析**（印刷/手写 OCR、表格识别、版式分析、印章检测）。覆盖 RAG → Agent → SFT 全流程，内置 RBAC/SSO/LDAP 企业级管控。Docker 一键部署，已服务多家世界 500 强，Apache-2.0 协议。
 - **[Awesome LLM Resources](https://github.com/WangRongsheng/awesome-LLM-resources)** — 大语言模型资源全收录：论文、开源模型、训练框架、推理优化、评估基准、Prompt 工程、RAG、Agent、安全对齐等 20+ 子领域。含中文 LLM 专项（ChatGLM、Qwen、DeepSeek 等国产模型生态）和实践教程，适合 LLM 研究者与工程师的系统性学习地图。
+- **[Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)** — GitHub 28K+ Stars，「计算优先、公式其次」的贝叶斯推断入门开源书。用 Jupyter Notebook + PyMC 以代码驱动的方式讲解贝叶斯方法论，6 章核心内容覆盖贝叶斯导论、PyMC 建模、MCMC 内部原理、大数定律、损失函数与先验分布。含短信行为变化推断、考试作弊检测、挑战者号灾难概率分析、贝叶斯聚类、Reddit 评论排名、多臂老虎机、Kaggle 获奖方案等真实案例。MIT 协议，有 Addison-Wesley 纸质版。
 
 ## 开发工具
 
@@ -58,10 +60,11 @@
 - **[Meetily](https://github.com/Zackriya-Solutions/meetily)** — 隐私优先的本地会议助手，GitHub 12K+ Stars。录音、转写、总结全部跑在本地，不上传任何服务器。Whisper + NVIDIA Parakeet 实时转写，macOS / Windows / Linux 三端 GPU 加速，总结环节可接 Ollama 本地模型或 Claude、Groq 等云端 API。涉及客户、合同、薪资等敏感会议的首选。
 - **[MarkerOn](https://github.com/ifer47/markeron)** — 轻量级屏幕标注工具，仅 1.5 MB。基于 Tauri v2 + Vue 3 构建，非 Electron 套壳，原生性能。热键一键进入标注模式，支持画笔、荧光笔、激光笔、箭头、矩形、椭圆、线条、橡皮擦、文字等全套工具，可在桌面任意内容上标注同时穿透点击底层应用。含白板模式、纯键盘操控、跨会话保存标注。演示、教学、录屏、会议场景的利器。
 - **[Superdoc](https://github.com/superdoc-dev/superdoc)** — 开源实时协作文档编辑器，Notion 与 OnlyOffice 的轻量融合体。块级编辑、实时光标同步、评论、历史版本，整个编辑器核心开源。可嵌入 SaaS 产品、知识库系统或团队管理后台，数据完全私有化部署。适合需要在线文档功能又不想被大厂绑定的场景：企业 SOP 文档库、在线教育讲义协作、小型团队 Wiki、低代码平台富文本模块。
+- **[croc](https://github.com/schollz/croc)** — GitHub 38K+ Stars，任意两台电脑之间安全传输文件/文件夹的 Go CLI 工具。通过中继建立端到端加密通道（PAKE 密码认证密钥协商），无需局域网、端口转发或自建服务器。支持断点续传、多文件传输、代理（Tor 等）、自建中继、自定义口令短语、二维码移动端传输、管道/stdin 流式传输。跨平台 Windows / macOS / Linux，`croc send` + `croc <code>` 两行命令搞定，MIT 协议。
 
 ## 前端开发
 
-*等待收录...*
+- **[UI Skills](https://github.com/ibelick/ui-skills)** — Design Engineer 的技能工具箱，GitHub 6.5K Stars。通过 CLI 命令 `npx ui-skills start` 为 AI Agent 路由到正确的 UI 技能集，还支持 `list` / `get` / `categories` 等查询命令。基于 Astro + TypeScript + Cloudflare Workers 构建，含 AGENTS.md 和 DESIGN.md 项目文档。本质上是一套结构化的前端设计知识库，帮助 AI 编码助手在 UI 设计任务中做出更好的决策。MIT 协议。
 
 ## 后端开发
 
