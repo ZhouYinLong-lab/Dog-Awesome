@@ -34,6 +34,7 @@
 
 - **[Supervision](https://github.com/roboflow/supervision)** — 计算机视觉通用工具集。封装检测、追踪、标注、可视化等一整套 CV 常用功能，省去重复造轮子。做 CV 项目的基础设施级工具库。
 - **[BiRefNet](https://github.com/ZhengPeng7/BiRefNet)** — 高精度图像抠图深度学习模型。双向参考机制同时利用高层语义和底层细节信息，发丝、半透明物体等复杂边缘处理自然。提供预训练模型和推理代码，支持在 COCO 等公开数据集上微调。适用场景：电商自动去背景、视频会议虚拟背景预处理、影视后期素材提取、证件照自动换底。
+- **[SpatialLM](https://github.com/manycore-research/SpatialLM)** — 面向室内场景理解的 3D 大语言模型。输入点云，输出墙体、门窗和带语义类别的 3D 物体框，支持从单目视频、RGB-D 或 LiDAR 等来源得到的点云；提供 Llama-1B / Qwen-0.5B 模型和可视化脚本，适合探索空间智能、机器人导航与 3D 场景重建。
 - **[Bisheng](https://github.com/dataelement/bisheng)** — GitHub 11.5K+ Stars，企业级 LLM 应用 DevOps 平台，名出毕昇活字印刷。核心三件套：**Lingsight Agent**（AGL 框架将领域知识嵌入 Agent 决策链）、**Bisheng Workflow**（可视化编排，支持循环/并行/批处理/条件逻辑，执行中可人机干预）、**高精度文档解析**（印刷/手写 OCR、表格识别、版式分析、印章检测）。覆盖 RAG → Agent → SFT 全流程，内置 RBAC/SSO/LDAP 企业级管控。Docker 一键部署，已服务多家世界 500 强，Apache-2.0 协议。
 - **[Awesome LLM Resources](https://github.com/WangRongsheng/awesome-LLM-resources)** — 大语言模型资源全收录：论文、开源模型、训练框架、推理优化、评估基准、Prompt 工程、RAG、Agent、安全对齐等 20+ 子领域。含中文 LLM 专项（ChatGLM、Qwen、DeepSeek 等国产模型生态）和实践教程，适合 LLM 研究者与工程师的系统性学习地图。
 - **[Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)** — GitHub 28K+ Stars，「计算优先、公式其次」的贝叶斯推断入门开源书。用 Jupyter Notebook + PyMC 以代码驱动的方式讲解贝叶斯方法论，6 章核心内容覆盖贝叶斯导论、PyMC 建模、MCMC 内部原理、大数定律、损失函数与先验分布。含短信行为变化推断、考试作弊检测、挑战者号灾难概率分析、贝叶斯聚类、Reddit 评论排名、多臂老虎机、Kaggle 获奖方案等真实案例。MIT 协议，有 Addison-Wesley 纸质版。
@@ -60,6 +61,7 @@
 - **[Meetily](https://github.com/Zackriya-Solutions/meetily)** — 隐私优先的本地会议助手，GitHub 12K+ Stars。录音、转写、总结全部跑在本地，不上传任何服务器。Whisper + NVIDIA Parakeet 实时转写，macOS / Windows / Linux 三端 GPU 加速，总结环节可接 Ollama 本地模型或 Claude、Groq 等云端 API。涉及客户、合同、薪资等敏感会议的首选。
 - **[MarkerOn](https://github.com/ifer47/markeron)** — 轻量级屏幕标注工具，仅 1.5 MB。基于 Tauri v2 + Vue 3 构建，非 Electron 套壳，原生性能。热键一键进入标注模式，支持画笔、荧光笔、激光笔、箭头、矩形、椭圆、线条、橡皮擦、文字等全套工具，可在桌面任意内容上标注同时穿透点击底层应用。含白板模式、纯键盘操控、跨会话保存标注。演示、教学、录屏、会议场景的利器。
 - **[Superdoc](https://github.com/superdoc-dev/superdoc)** — 开源实时协作文档编辑器，Notion 与 OnlyOffice 的轻量融合体。块级编辑、实时光标同步、评论、历史版本，整个编辑器核心开源。可嵌入 SaaS 产品、知识库系统或团队管理后台，数据完全私有化部署。适合需要在线文档功能又不想被大厂绑定的场景：企业 SOP 文档库、在线教育讲义协作、小型团队 Wiki、低代码平台富文本模块。
+- **[Bento](https://github.com/nyblnet/bento)** — GitHub 3.3K+ Stars，能装进一个文件的开源办公套件。把演示文稿、查看器、演讲者视图和编辑器全部打包进单个 HTML 文件，打开浏览器即可编辑、播放和分享，无需安装或登录。文档以明文 JSON 保存，支持离线使用、内置图表、Morph 动画、PDF 导出和端到端加密协作；MIT 协议。特别适合做可长期保存、可被 AI 直接读写的演示文稿。
 - **[croc](https://github.com/schollz/croc)** — GitHub 38K+ Stars，任意两台电脑之间安全传输文件/文件夹的 Go CLI 工具。通过中继建立端到端加密通道（PAKE 密码认证密钥协商），无需局域网、端口转发或自建服务器。支持断点续传、多文件传输、代理（Tor 等）、自建中继、自定义口令短语、二维码移动端传输、管道/stdin 流式传输。跨平台 Windows / macOS / Linux，`croc send` + `croc <code>` 两行命令搞定，MIT 协议。
 
 ## 前端开发
@@ -72,10 +74,12 @@
 
 - **[SafeLine](https://github.com/chaitin/SafeLine)** — 长亭科技出品的自建 WAF（Web 应用防火墙），GitHub 15K+ Stars。基于语义分析引擎检测 SQL 注入、XSS、命令注入等攻击，社区版免费。反向代理部署，支持 Docker 一键安装，自带 Web 管理面板，实时攻击日志与告警。
 - **[Fastify](https://github.com/fastify/fastify)** — Node.js 高性能 Web 框架，GitHub 33K+ Stars。插件式架构 + JSON Schema 序列化，请求吞吐量远超 Express。内置 Logger、输入校验、Hooks 生命周期，TypeScript 一等支持，生态丰富（官方插件覆盖 Cookie、CORS、JWT、Rate Limiting、WebSocket 等）。适合微服务、高并发 API 网关、实时数据管道等对性能有极致要求的后端场景。
+- **[CRMEB Java](https://github.com/crmeb/crmeb_java)** — Apache-2.0 开源 Java 商城系统，基于 Spring Boot + MyBatis-Plus，配套 Vue / Element UI 管理端与 uni-app 移动端。覆盖商品、用户、购物车、订单、营销、支付、权限等常见电商模块，支持 H5、公众号、微信小程序、APP 与 PC 后台，适合快速搭建多端商城或二次开发。
 
 ## 设计 & 创意
 
 - **[Kami](https://github.com/tw93/Kami)** — 轻量约束语言 + 十套模板，让 AI 生成「拿得出手」的 PDF。暖色调羊皮纸底、墨水蓝单色强调、统一衬线排版，解决 AI 生成文档版式漂移、千篇一律灰扑扑的问题。含一页简报、长文、信件、简历、幻灯片、股权报告、变更日志、落地页等中英双语模板。支持品牌配置文件（`~/.config/kami/brand.md`）持久化名字、色调、语言偏好；Claude Code 插件市场直接装 Skill ZIP 即可让 Agent 自动触发。适合常让 AI 写研报、提案、技术分享并想要认真排版的人。
+- **[HyperFrames](https://github.com/heygen-com/hyperframes)** — GitHub 39K+ Stars，HeyGen 开源的 HTML 原生视频生成框架。用熟悉的 HTML/CSS 编写视频场景，配合 GSAP、CSS、Lottie、Three.js 等动画运行时，由无头 Chrome 逐帧捕获并通过 FFmpeg 输出确定性的 MP4；无需 React 或专用时间线格式。附带 CLI、可复用动效组件目录、AI Agent Skills、本地与 AWS Lambda 渲染，Apache-2.0 协议。适合自动化生成产品宣传片、数据可视化、PR 演示和社交媒体视频。
 - **[Awesome Web Design](https://github.com/nicolesaidy/awesome-web-design)** — 数字设计师资源大全。覆盖博客/资讯、灵感网站、配色工具、字体搭配、图标库、图片素材、设计规范、原型工具、教程书籍、生产力工具和 Slack 社区等分类。从 Sketch/Figma 到 Dribbble/Behance 再到 Google Fonts，设计师常用工具与服务一站导航。
 
 ## 其他
