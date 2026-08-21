@@ -33,6 +33,7 @@
 ## AI & 机器学习
 
 - **[Supervision](https://github.com/roboflow/supervision)** — 计算机视觉通用工具集。封装检测、追踪、标注、可视化等一整套 CV 常用功能，省去重复造轮子。做 CV 项目的基础设施级工具库。
+- **[PyTorch Tutorials](https://github.com/pytorch/tutorials)** — PyTorch 官方教程仓库，GitHub 9.3K+ Stars。按入门、进阶、高级、Recipes 和原型特性组织，覆盖张量与自动微分、神经网络训练、计算机视觉、NLP、分布式训练、模型部署与性能优化等主题；教程以 Sphinx 文档发布，并自动生成可在 Google Colab 运行的 Jupyter Notebook。BSD-3-Clause 协议，适合系统学习 PyTorch 和查找可直接运行的实践范例。
 - **[BiRefNet](https://github.com/ZhengPeng7/BiRefNet)** — 高精度图像抠图深度学习模型。双向参考机制同时利用高层语义和底层细节信息，发丝、半透明物体等复杂边缘处理自然。提供预训练模型和推理代码，支持在 COCO 等公开数据集上微调。适用场景：电商自动去背景、视频会议虚拟背景预处理、影视后期素材提取、证件照自动换底。
 - **[SpatialLM](https://github.com/manycore-research/SpatialLM)** — 面向室内场景理解的 3D 大语言模型。输入点云，输出墙体、门窗和带语义类别的 3D 物体框，支持从单目视频、RGB-D 或 LiDAR 等来源得到的点云；提供 Llama-1B / Qwen-0.5B 模型和可视化脚本，适合探索空间智能、机器人导航与 3D 场景重建。
 - **[Bisheng](https://github.com/dataelement/bisheng)** — GitHub 11.5K+ Stars，企业级 LLM 应用 DevOps 平台，名出毕昇活字印刷。核心三件套：**Lingsight Agent**（AGL 框架将领域知识嵌入 Agent 决策链）、**Bisheng Workflow**（可视化编排，支持循环/并行/批处理/条件逻辑，执行中可人机干预）、**高精度文档解析**（印刷/手写 OCR、表格识别、版式分析、印章检测）。覆盖 RAG → Agent → SFT 全流程，内置 RBAC/SSO/LDAP 企业级管控。Docker 一键部署，已服务多家世界 500 强，Apache-2.0 协议。
