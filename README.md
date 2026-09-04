@@ -38,6 +38,7 @@
 - **[SpatialLM](https://github.com/manycore-research/SpatialLM)** — 面向室内场景理解的 3D 大语言模型。输入点云，输出墙体、门窗和带语义类别的 3D 物体框，支持从单目视频、RGB-D 或 LiDAR 等来源得到的点云；提供 Llama-1B / Qwen-0.5B 模型和可视化脚本，适合探索空间智能、机器人导航与 3D 场景重建。
 - **[Bisheng](https://github.com/dataelement/bisheng)** — GitHub 11.5K+ Stars，企业级 LLM 应用 DevOps 平台，名出毕昇活字印刷。核心三件套：**Lingsight Agent**（AGL 框架将领域知识嵌入 Agent 决策链）、**Bisheng Workflow**（可视化编排，支持循环/并行/批处理/条件逻辑，执行中可人机干预）、**高精度文档解析**（印刷/手写 OCR、表格识别、版式分析、印章检测）。覆盖 RAG → Agent → SFT 全流程，内置 RBAC/SSO/LDAP 企业级管控。Docker 一键部署，已服务多家世界 500 强，Apache-2.0 协议。
 - **[Awesome LLM Resources](https://github.com/WangRongsheng/awesome-LLM-resources)** — 大语言模型资源全收录：论文、开源模型、训练框架、推理优化、评估基准、Prompt 工程、RAG、Agent、安全对齐等 20+ 子领域。含中文 LLM 专项（ChatGLM、Qwen、DeepSeek 等国产模型生态）和实践教程，适合 LLM 研究者与工程师的系统性学习地图。
+- **[Research Starter Kit](https://github.com/LAMDA-NeSy/Research-Starter-Kit)** — 面向本科生、硕士生、博士生的科研入门指南，帮助刚进入课题组的同学建立做科研、写论文的完整流程。手册覆盖如何找论文、读论文、发现问题和提出 Idea、学术汇报、Meeting、科研习惯，以及论文的 Abstract、Introduction、Related Works、Methods、Experiments、Reference 和 Rebuttal 写作，并附论文画图、学术会议、奖学金和 AI 辅助科研等实用内容。适合第一次参与科研项目、需要系统梳理研究方法与写作规范的读者。
 - **[Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)** — GitHub 28K+ Stars，「计算优先、公式其次」的贝叶斯推断入门开源书。用 Jupyter Notebook + PyMC 以代码驱动的方式讲解贝叶斯方法论，6 章核心内容覆盖贝叶斯导论、PyMC 建模、MCMC 内部原理、大数定律、损失函数与先验分布。含短信行为变化推断、考试作弊检测、挑战者号灾难概率分析、贝叶斯聚类、Reddit 评论排名、多臂老虎机、Kaggle 获奖方案等真实案例。MIT 协议，有 Addison-Wesley 纸质版。
 
 ## 开发工具
